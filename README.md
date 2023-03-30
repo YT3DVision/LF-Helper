@@ -11,10 +11,9 @@ Lytro相机厂商已倒闭，可参考文献较少，本文档重点说明相机
 ## 📖 解码软件的使用
 
 + 完成Lytro-Power-Tool安装
-+ 直接从相机导入SD卡的标定文件可能会在使用中报"Using bitmap demod, but no demod calibration data found (did you specify a calibration folder?)"的错误，此时需将相机通过USB-B线连接电脑，然后通过Lytro-Desktop工具导出标定文件。标定文件已上传至[百度网盘](链接：https://pan.baidu.com/s/1Yz47oSIrQyRWAsL7LSYpdg?pwd=1234 
-  提取码：1234[)
++ 直接从相机导入SD卡的标定文件可能会在使用中报"Using bitmap demod, but no demod calibration data found (did you specify a calibration folder?)"的错误，此时需将相机通过USB-B线连接电脑，然后通过Lytro-Desktop工具导出标定文件。标定文件已上传至[百度网盘](https://pan.baidu.com/s/1Yz47oSIrQyRWAsL7LSYpdg?pwd=1234)
 + 使用$ lfptool raw -i [raw-path] --calibration-in [cal-path]即可完成光场lfr源文件的[解码](https://blog.csdn.net/ChandelerGause/article/details/114176962)，具体指令可参考上传的lfp指令手册或原光场相机说明书
-+ 也可以使用matlab(具体参考[vincentqin]([Light Field 光场以及MATLAB光场工具包(LightField ToolBox)的使用说明 | RealCat (vincentqin.tech)](https://vincentqin.tech/posts/LightField-Toolbox/)))进行解码，但色彩上不及lytro-power-tool的解码效果，同时无法直接生成深度图
++ 也可以使用matlab(具体参考[vincentqin](https://vincentqin.tech/posts/LightField-Toolbox/)进行解码，但色彩上不及lytro-power-tool的解码效果，同时无法直接生成深度图
 
 ## 🎅 **脚本控制相机拍照**
 
