@@ -2,7 +2,7 @@
 
 ## 👉 软件下载
 
-Lytro-Desktop[下载](http://lightfield-forum.com/lytro/lytro-archive/#downloads)、Lytro-Power-Tool[官网下载]([Lytro Platform (Lytro Power Tools, Lytro Development Kit) - Official Product Information | LightField Forum (lightfield-forum.com)](http://lightfield-forum.com/lytro/lytro-archive/lytro-platform-lytro-power-tools-lytro-development-kit-official-product-information/))或[gitHub下载](https://github.com/kmader/lytro-power-tools)
+Lytro-Desktop[下载](http://lightfield-forum.com/lytro/lytro-archive/#downloads)、Lytro-Power-Tool[官网下载](http://lightfield-forum.com/lytro/lytro-archive/lytro-platform-lytro-power-tools-lytro-development-kit-official-product-information/)或[gitHub下载](https://github.com/kmader/lytro-power-tools)
 
 ## 🤕 说明
 
